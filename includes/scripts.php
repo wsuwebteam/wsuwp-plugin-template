@@ -1,6 +1,6 @@
 <?php namespace WSUWP\Plugin\PluginName;
 
-class Plugin {
+class Scripts {
 
 
     public static function setup_classes() {
@@ -20,4 +20,4 @@ class Plugin {
 
 }
 
-Plugin::init();
+Scripts::init();
