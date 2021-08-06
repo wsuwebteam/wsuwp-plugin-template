@@ -13,6 +13,12 @@ class Plugin {
 			case 'version':
 				return self::$version;
 
+			case 'dir':
+				return plugin_dir_path( __FILE__ );
+
+			case 'url':
+				return plugin_dir_url( __FILE__ );
+
 			default:
 				return '';
 
